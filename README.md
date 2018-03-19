@@ -1,7 +1,5 @@
 # testng-example
 
-# capybara-example
-
 ## How to run test: 
 
 * Update path to chromedriver
