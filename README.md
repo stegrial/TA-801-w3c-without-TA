@@ -4,8 +4,10 @@
 
 * Update path to chromedriver
 
+![alt text](webdriver.png "Webdriver path")
+
 ```
-System.setProperty("webdriver.chrome.driver", "/Users/eugeneshapovalov/.chromedriver-helper/2.37/mac/chromedriver");
+System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
 ```
 
 * Run test ``mvn test``
