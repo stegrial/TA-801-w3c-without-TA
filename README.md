@@ -10,5 +10,5 @@ System.setProperty("webdriver.chrome.driver", "/Users/eugeneshapovalov/.chromedr
 
 * Run test ``mvn test``
 
-#### Note
-chromedriver must be installed automatically through ``gem 'chromedriver-helper'`` 
+
+ 
