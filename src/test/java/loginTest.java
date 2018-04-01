@@ -19,12 +19,12 @@ public class loginTest {
     @BeforeTest
     public void beforeTest() {
 
-        // Optional, if not specified, WebDriver will search your path for chromedriver.
-      /*  System.setProperty("webdriver.chrome.driver",
-                "/Users/eugeneshapovalov/.chromedriver-helper/2.37/mac/chromedriver"); */
+        /* Optional, if not specified, WebDriver will search your path for chromedriver.  *
+         *    System.setProperty("webdriver.chrome.driver",                               *
+         *      "/Users/eugeneshapovalov/.chromedriver-helper/2.37/mac/chromedriver");    */
 
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
 
     @Test
